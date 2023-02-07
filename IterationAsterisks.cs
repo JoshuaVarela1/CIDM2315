@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 
 public class Program
 {
@@ -6,15 +6,12 @@ public class Program
     {
         int num = Convert.ToInt32(Console.ReadLine());
 
-        string outputSquares = "";
+        string output = "";
 
-        for (int i =0; i<num; i++)
+        for (int i = 0; i< num; i++)
         {
-            outputSquares += '#';
-        }
-        for(int i =0; i<num; i++)
-        {
-            Console.WriteLine(outputSquares);
+            output += '*';
+            Console.WriteLine(output);
         }
     }
 }
